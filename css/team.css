@@ -1,0 +1,12 @@
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list > li {
+  background-color: #ffffff;
+}
+
+.team-list h3,
+.team-list p {
+  text-align: center;
+}

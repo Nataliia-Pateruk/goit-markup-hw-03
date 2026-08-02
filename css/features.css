@@ -1,0 +1,30 @@
+.features h2 {
+  color: #2e2f42;
+  line-height: 1.11;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.features h3 {
+  color: #2e2f42;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+.features p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.features a {
+  text-decoration: none;
+  color: inherit;
+}
+.features li,
+.features ul {
+  list-style-type: none;
+}

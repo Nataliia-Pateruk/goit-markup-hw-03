@@ -27,9 +27,15 @@
 .features li,
 .features ul {
   list-style-type: none;
+  max-width: calc((100% - 24 * 3) / 4));
 }
 .features-list {
   display: flex;
+  flex-wrap:nowrap;
   gap: 24px;
+}
+
+.features {
+  padding: 188px 0;
   margin: 120px 0;
 }

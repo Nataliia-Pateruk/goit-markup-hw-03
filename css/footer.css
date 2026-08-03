@@ -1,9 +1,11 @@
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-size: 16px;
@@ -11,4 +13,5 @@
   text-transform: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }

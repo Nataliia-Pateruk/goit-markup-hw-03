@@ -12,6 +12,7 @@
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features p {
   line-height: 1.5;
@@ -24,18 +25,16 @@
   text-decoration: none;
   color: inherit;
 }
-.features li,
-.features ul {
-  list-style-type: none;
-  max-width: calc((100% - 24 * 3) / 4));
+.features li {
+  max-width: calc((100% - 24px * 3) / 4);
 }
 .features-list {
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   gap: 24px;
 }
 
 .features {
-  padding: 188px 0;
-  margin: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }

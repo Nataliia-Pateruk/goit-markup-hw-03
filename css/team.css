@@ -1,19 +1,24 @@
 .team {
   background-color: #f4f4fd;
-  margin: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list > li {
   background-color: #ffffff;
-   max-width: calc((100% - 24 * 3) / 4));
-   border: 1px solid transparent;
-   border-radius: 0 0 4px 4px;
+  max-width: calc((100% - 24px * 3) / 4);
+  border: 1px solid transparent;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-list h3,
 .team-list p {
   text-align: center;
 }
+.team-list p {
+  margin-top: 8px;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -26,5 +31,5 @@
 }
 .team-list img {
   display: block;
-   max-width: 264px;
+  max-width: 264px;
 }

@@ -20,3 +20,29 @@
   font-size: 16px;
   letter-spacing: 0.02em;
 }
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  margin-top: 72px;
+}
+.portfolio-list > li {
+  max-width: calc((100% - 24px * 2) / 3);
+  border: 1px solid transparent;
+  border-radius: 0 0 4px 4px;
+}
+.portfolio-wrapper {
+  padding-bottom: 120px;
+  padding-top: 120px;
+  border: 0 auto;
+}
+
+.portfolio-list img {
+  display: block;
+}

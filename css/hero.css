@@ -2,8 +2,6 @@
   background-color: #2e2f42;
   color: #ffffff;
   padding: 188px 0;
-  margin-bottom: 48px;
-  margin-top: 188px;
 }
 .hero-logo {
   font-size: 56px;
@@ -11,7 +9,7 @@
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  align-self: center;
+  align-items: center;
   max-width: 496px;
 }
 .hero-order-button {
@@ -23,11 +21,10 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-bottom: 188px;
   border-radius: 4px;
   padding: 16px 32px;
-  align-self: center;
   border: none;
+  margin-top: 48px;
 }
 .hero-order-button:hover,
 .hero-order-button:focus {
@@ -35,6 +32,7 @@
 }
 .hero .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

@@ -34,7 +34,8 @@
   color: #404bbf;
 }
 
-.header-address a {
+.header-address a,
+.header-navigation a {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;

@@ -33,3 +33,21 @@
 .header-address a:focus {
   color: #404bbf;
 }
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 10px;
+  margin-right: auto;
+  padding: 0;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}

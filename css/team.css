@@ -10,3 +10,9 @@
 .team-list p {
   text-align: center;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 120px 0;
+}

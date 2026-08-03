@@ -20,6 +20,11 @@
   font-size: 16px;
   letter-spacing: 0.02em;
 }
+
+.portfolio p {
+  margin-top: 8px;
+}
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -28,19 +33,22 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 24px;
+  column-gap: 48px;
   align-items: center;
   margin-top: 72px;
 }
 .portfolio-list > li {
-  max-width: calc((100% - 24px * 2) / 3);
-  border: 1px solid transparent;
-  border-radius: 0 0 4px 4px;
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-wrapper {
-  padding-bottom: 120px;
-  padding-top: 120px;
-  border: 0 auto;
+  padding-bottom: 16px;
+  padding-top: 36px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-radius: 0 0 4px 4px;
+  border-color: rgba(64, 75, 191, 0.5);
 }
 
 .portfolio-list img {
